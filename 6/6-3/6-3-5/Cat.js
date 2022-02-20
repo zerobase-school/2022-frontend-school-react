@@ -2,7 +2,6 @@ import React from "react";
 
 const Cat = () => {
   console.log("자식 컴포넌트 Cat");
-  console.log(ref);
 
   return (
     <div>

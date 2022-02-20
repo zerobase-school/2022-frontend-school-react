@@ -2,10 +2,7 @@ import React from "react";
 import Cat from "./Cat";
 
 export default function CatParent() {
-  const catRef = useRef();
-
-  console.log("부모 컴포넌트 App");
-  console.log(catRef);
+  console.log("부모 컴포넌트 CatParent");
 
   return (
     <div>
